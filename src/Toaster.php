@@ -51,7 +51,8 @@ class Toaster
             'heightAuto' => config('sweetalert.height_auto'),
             'padding' => config('sweetalert.padding'),
             'showConfirmButton' => config('sweetalert.show_confirm_button'),
-            'showCloseButton' => config('sweetalert.show_close_button')
+            'showCloseButton' => config('sweetalert.show_close_button'),
+            'customClass' => config('sweetalert.customClass'),
         ];
     }
 
