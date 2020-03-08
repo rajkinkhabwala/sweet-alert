@@ -139,5 +139,15 @@ return [
 
         'auto_display_error_messages' => env('SWEET_ALERT_AUTO_DISPLAY_ERROR_MESSAGES', false),
     ],
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Class Globally
+    |--------------------------------------------------------------------------
+    | Custom Classes can be changed globally via this config
+    |
+    */
+    'customClass' => [
+    'cancelButton' => 'btn btn-block btn-danger' //this way you can add your custom classes globally.
+    ]
 
 ];
